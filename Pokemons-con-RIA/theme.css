@@ -1,0 +1,49 @@
+
+.global
+{
+    overflow:visible;
+}
+
+.pokemon
+{
+    background-image: url('fondo.jpg');
+}
+
+.caja
+{
+    background-color: white;
+}
+.centrado
+{
+    margin: auto;
+    width: 50%;
+    border: 3px solid red;
+    padding: 10px;
+    text-align: center;
+    overflow:auto;
+    
+}
+
+.imagen
+{
+    width:100%;
+}
+
+
+@media  screen and (max-width: 600px)
+{
+    h1{
+        color:red;
+    }
+
+    .centrado
+    {
+        margin: auto;
+        width: 100%;
+        border: 3px solid red;
+        padding: 10px;
+        text-align: center;
+        overflow:visible;
+        box-sizing:border-box;
+    }
+}

@@ -1,0 +1,18 @@
+.itemCarrro{
+	background-image: url('2.jpg');
+	position:relative;
+	border: 3px solid RED;
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+	text-align: center;
+	overflow:auto;
+}
+
+.imagen1{
+	width: 200px;
+}
+.carrito{
+	text-align: center;
+	font-size: 170%;
+}
